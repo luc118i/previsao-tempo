@@ -1,0 +1,73 @@
+.weather-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+h2 {
+  font-size: 2rem;
+}
+.weather-infor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temperatuew-main {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.descripton {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-family: "Poppins", serif;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*gap: 5px;*/
+  margin-top: 10px;
+  font-family: "Poppins", serif;
+  align-items: center;
+}
+.separator-line {
+  width: 100%; /* Faz a linha ocupar toda a largura do contêiner */
+  height: 1.3px; /* Espessura da linha */
+  background-color: #c7c7c7; /* Cor da linha */
+  margin: 20px 0; /* Espaçamento em cima e embaixo da linha */
+}
+.max-min {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Poppins", serif;
+}
+
+.vertical-line {
+  height: 20px; /* Altura da linha */
+  width: 1.3px; /* Espessura da linha */
+  background-color: #c7c7c7; /* Cor da linha */
+}
+
+.wind-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Poppins", serif;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.wind-info:hover {
+  color: rgb(124, 124, 124); /* Altera a cor no hover */
+  /* transform: scale(1.1); Aumenta levemente o tamanho no hover */
+}
+
+.wind-info:hover svg {
+  color: aliceblue;
+}
